@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="601859981">
+	<Platform GUID="{C2352E53-BAAD-4699-BCBE-6DF032E5AFCE}">
+		<Banks>
+			<Language ID="0">
+				<File Name="Init" Hash="3233006009" Timestamp="131177453702759858"/>
+				<File Name="New_SoundBank" Hash="1912975093" Timestamp="131177455356322485"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="865380620" Timestamp="131177455356430687"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0D513AE7-A226-4862-A25E-CD5498C5480D}" SchemaVersion="72">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{0D513AE7-A226-4862-A25E-CD5498C5480D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="New_Event" ID="{CD088BD7-EBB8-4C15-BDFA-4705B9330627}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E2BCEB95-209D-4BE3-9138-0E3E25E1B17C}" ShortID="24687964" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F1BDB948-BBB8-434B-A86D-B020DBBA713A}" Global="false">
+									<ObjectRef Name="New Sound SFX" ID="{15516958-EAD4-4E68-B004-9DFDDADDD7AA}" WorkUnitID="{FF75574A-183D-4B84-991F-209683525CA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

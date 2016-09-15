@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="72">
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1353601927" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Amazaballz.wproj" DateLow="1353591920" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Attenuations\Default Work Unit.wwu" DateLow="1354391866" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Audio Devices\Default Work Unit.wwu" DateLow="1353793261" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Control Surface Sessions\Default Work Unit.wwu" DateLow="1353601927" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Conversion Settings\Default Work Unit.wwu" DateLow="1354499455" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Conversion Settings\Factory Conversion Settings.wwu" DateLow="596683484" DateHigh="30533465"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1354499455" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Effects\Default Work Unit.wwu" DateLow="1354255324" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Effects\Factory Effects.wwu" DateLow="597303919" DateHigh="30533465"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Events\Default Work Unit.wwu" DateLow="1353788360" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Game Parameters\Default Work Unit.wwu" DateLow="1353793261" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1354336952" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1353601927" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Mixing Sessions\Default Work Unit.wwu" DateLow="1354499455" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Modulators\Default Work Unit.wwu" DateLow="1354499455" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Presets\Default Work Unit.wwu" DateLow="1354074238" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Queries\Default Work Unit.wwu" DateLow="1354165107" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Queries\Factory Queries.wwu" DateLow="597303919" DateHigh="30533465"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\SoundBanks\Default Work Unit.wwu" DateLow="1354471426" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1354119267" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\States\Default Work Unit.wwu" DateLow="1354300234" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Switches\Default Work Unit.wwu" DateLow="1354431519" DateHigh="30542128"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\Triggers\Default Work Unit.wwu" DateLow="1354215072" DateHigh="30542128"/>
+</ValidationCache>

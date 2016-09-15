@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FF75574A-183D-4B84-991F-209683525CA0}" SchemaVersion="72">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{FF75574A-183D-4B84-991F-209683525CA0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="New Sound SFX" ID="{15516958-EAD4-4E68-B004-9DFDDADDD7AA}" ShortID="862911857" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36F9D315-A795-4B71-A3E9-79C58A893FC2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3AE7ABB7-8212-4443-8C95-407A478B4DFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="POWERUP_BUBBLE_BURST" ID="{1754E481-29E2-46C0-9BDA-FDE8DEF39709}" ShortID="833164202">
+							<Language>SFX</Language>
+							<AudioFile>POWERUP_BUBBLE_BURST.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="POWERUP_BUBBLE_BURST" ID="{1754E481-29E2-46C0-9BDA-FDE8DEF39709}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

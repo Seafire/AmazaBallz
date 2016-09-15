@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3050945240	New_Event			\Default Work Unit\New_Event	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	833164202	New Sound SFX	C:\Users\Shane\Documents\Amazaballz_Repository\Amazaballz\Assets\Wwise Project\Amazaballz\.cache\Windows\SFX\POWERUP_BUBBLE_BURST_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Sound SFX		181196
+
