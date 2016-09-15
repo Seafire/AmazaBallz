@@ -119,7 +119,7 @@ public class PlayerController : MonoBehaviour
 
 		float verMovement = m_MovementInputVerValue * m_Speed * Time.deltaTime;
 		float horMovement = m_MovementInputHorValue * m_Speed * Time.deltaTime;
-		float jumpMovement = (Physics.gravity.y*100 )* Time.deltaTime;
+		float jumpMovement = (Physics.gravity.y*500 )* Time.deltaTime;
 
 		if (!isJumping && Input.GetButtonDown ("Jump")) 
 		{
@@ -131,7 +131,7 @@ public class PlayerController : MonoBehaviour
 			++jumpCount;
 			if (jumpCount >= 30)
 			{
-				jumpMovement = (Physics.gravity.y*100 )* Time.deltaTime;
+				jumpMovement = (Physics.gravity.y*1000 )* Time.deltaTime;
 				jumpCount = 0;
 			}
 		}

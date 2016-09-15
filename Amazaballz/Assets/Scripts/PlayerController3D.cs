@@ -30,6 +30,7 @@ public class PlayerController3D : MonoBehaviour
 	private void Awake ()
 	{
 		//player_RigidBody = GetComponent<Rigidbody> ();
+		m_Rigidbody = GetComponent<Rigidbody> ();
 	}
 	
 	
@@ -142,14 +143,18 @@ public class PlayerController3D : MonoBehaviour
 	{
 		// Determine the number of degrees to be turned based on the input, speed and time between frames.
 		float turn = m_TurnInputValue * m_TurnSpeed * Time.deltaTime;
+
+		Debug.Log ("Current rotate: " + turn);
 		
 		// Make this into a rotation in the y axis.
 		Quaternion turnRotation = Quaternion.Euler (0f, turn, 0f);
-		
+
 		// Apply this rotation to the rigidbody's rotation.
 		player_RigidBody.MoveRotation (player_RigidBody.rotation * turnRotation);
-		transform.rotation = player_RigidBody.transform.rotation;
+		//transform.rotation.eulerAngles.Set (transform.rotation.x, player_RigidBody.rotation.y, transform.rotation.z);
 		Debug.Log (player_RigidBody.rotation.y);
+		m_Rigidbody.MoveRotation (player_RigidBody.rotation * turnRotation);
+		//transform.rotation = Quaternion.Euler (0f, turn, 0f);
 	}
 
 
