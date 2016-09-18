@@ -18,13 +18,12 @@ public class PlayerController3D : MonoBehaviour
 	private string m_MovementAxisVerName;           // The name of the input axis for moving forward and back.
 	private string m_MovementAxisHorName;			// The name of the input axis for moving left and Rght. 
 	private string m_TurnAxisHorName;               // The name of the input axis for turning.
-	private Rigidbody m_Rigidbody;              	// Reference used to move the tank.
+	private Rigidbody m_Rigidbody;              	// Reference used to move the player.
+	public Transform m_Parent;
 	private float m_MovementInputVerValue;         	// The current value of the movement input.
 	private float m_MovementInputHorValue;
 	private float m_TurnInputValue;            		// The current value of the turn input.
 	private float m_OriginalPitch;            		// The pitch of the audio source at the start of the scene.
-	private float m_SlowDown = 10.0f;				// Allows the ball to slowly come to a halt.
-	private float m_SlowDownRate = 0.1f;			// The rate in which the slow timer is.
 	
 	
 	private void Awake ()
@@ -39,6 +38,7 @@ public class PlayerController3D : MonoBehaviour
 		// When the tank is turned on, make sure it's not kinematic.
 		player_RigidBody.isKinematic = false;
 		
+		//m_Parent = GetComponentInParent<Transform> ();
 		// Also reset the input values.
 		m_MovementInputVerValue = 0f;
 		m_TurnInputValue = 0f;
@@ -109,6 +109,8 @@ public class PlayerController3D : MonoBehaviour
 		MoveUp ();
 		MoveRight ();
 		Turn ();
+
+		m_Parent.position = transform.position;
 	}
 
 	private void MoveUp()
@@ -137,6 +139,7 @@ public class PlayerController3D : MonoBehaviour
 		player_RigidBody.MovePosition(player_RigidBody.position + movementRight);
 
 		transform.position = player_RigidBody.position;
+
 	}
 	
 	private void Turn ()
